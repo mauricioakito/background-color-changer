@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Passion One', cursive;
+}
+
+.default {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+.buttonContainer {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+
+    @media screen and (min-width: 768px) {
+        flex-direction: row;
+    }
+
+}
+
+.title {
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.orange,
+.blue,
+.red,
+.pink,
+.green {
+    transition: 0.3s;
+}
+
+.orange{
+    background-color: #ff9900;
+}
+
+.blue {
+    background-color: #33aaff;
+}
+
+.red{ 
+    background-color: #a91111;
+}
+
+.pink {
+    background-color: #ef70b1;
+}
+
+.green{
+    background-color: #6eb158;
+}
