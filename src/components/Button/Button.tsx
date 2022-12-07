@@ -3,7 +3,7 @@ import './Button.scss'
 import classnames from 'classnames';
 
 interface ButtonProps {
-    setColor: React.Dispatch<React.SetStateAction<any>>;
+    setColor: (value: string) => void;
     colorName: string;
 }
 
